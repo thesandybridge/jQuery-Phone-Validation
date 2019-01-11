@@ -12,7 +12,7 @@ Change the `id` declaration to match the id of the input you wish to effect.
 
 ### Be sure to change the limit of the input fields to match the amount of characters you will be using.
 
-[View live](https://thesandybridge.github.io/jQuery-Phone-Validation/)
+[Demo](https://thesandybridge.github.io/jQuery-Phone-Validation/)
 
 ---
 
