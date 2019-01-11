@@ -30,4 +30,6 @@ $('#phone1').keyup(function()
 ```html
 <input maxlength="14" id="phone1" type="text" placeholder="(123) 456-7890" required> 
 ```
+#####Output
 
+![](assets/chrome-capture.gif)
