@@ -1,10 +1,5 @@
 //Regular Expressions for phone
-window.document.onload = function disableInputs() {
-    var input = document.getElementsByTagName('input');
-    if (input.value != Number) {
-        return input.disabled = true;
-    }
-}
+
 
 $('#phone1').keyup(function()
 {
