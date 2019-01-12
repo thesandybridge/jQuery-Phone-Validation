@@ -2,7 +2,8 @@
 $(document).ready(function() {
     $('input').keypress(function(key) {
         if(key.charCode < 48 || key.charCode > 57) return false;
-    });
+    });   
+});
 
 $('#phone1').keyup(function()
 {
@@ -18,3 +19,4 @@ $('#phone3').keyup(function()
 {
     this.value = this.value.replace(/^(\d{3})(\d{3})(\d{4})+$/, "$1-$2-$3");
 });
+
