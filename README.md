@@ -20,6 +20,16 @@ Change the `id` declaration to match the id of the input you wish to effect.
 
 The following is an example of `(123) 456-7890` formatting.
 
+Add the following code to disable keys and to allow numbers only.
+```javascript
+//Critical for disabling letters or other inputs (numbers only)
+$(document).ready(function() {
+    $('input').keypress(function(key) {
+        if(key.charCode < 48 || key.charCode > 57) return false;
+    });   
+});
+```
+
 ```javascript
 $('#phone1').keyup(function()
 {
